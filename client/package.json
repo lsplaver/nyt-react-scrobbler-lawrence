@@ -1,0 +1,19 @@
+{
+    "name": "nyt-react-scrobbler-lawrence",
+    "version": "1.0.0",
+    "description": "App scrobbling the NYT using Node, React, Express and MongoDB",
+    "private": true,
+    "proxy": "http://localhost:3001/",
+    "dependencies": {
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-scripts": "1.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+  
