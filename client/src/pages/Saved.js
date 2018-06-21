@@ -1,15 +1,17 @@
 import React from "react";
-import ResultsSection from "./../ResultsSection/";
-import ListItems from "../components/List/ListItems";
+import List from "./../components/ListsComp";
+import ListItems from "./../components/ListItemsComp";
 
 // let 
-const Saved = () => (
+/*export*/ const Saved = () => (
     <div>
         <label> Saved Articles </label>
         <List>
             <ListItems />
         </List>
     </div>
-)
+);
 
 export default Saved;
+
+// module.exports = Saved;

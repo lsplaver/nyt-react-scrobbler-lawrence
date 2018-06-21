@@ -1,10 +1,10 @@
 import React from "react";
 
-const List = ({ lstItem }) => {
+/*export*/ const List = ({ children }) => {
     return (
         <div className="list-overflow-container">
             <ul className="list-group">
-                {lstItem}
+                {children}
             </ul>
         </div>
     );

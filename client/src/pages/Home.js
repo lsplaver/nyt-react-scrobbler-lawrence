@@ -1,9 +1,9 @@
 import React from "react";
-import SearchForm from "./../SearchForm/index";
-import List from "./../components/List";
-import ListItems from "../components/List/ListItems";
+import SearchForm from "./../components/SearchForm";
+import List from "./../components/ListsComp";
+import ListItems from "../components/ListItemsComp";
 
-const Home = () => (
+/*export*/ const Home = () => (
     <div>
         <SearchForm />
         <div />
