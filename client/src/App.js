@@ -5,8 +5,8 @@ import './App.css';
 import NavBar from './components/Nav';
 // import Home from "./pages";
 // import Saved from "./pages";
-import Home from "./pages/Home.js";
-import Saved from "./pages/Saved.js";
+import Home from "./pages/Home";
+import Saved from "./pages/Saved";
 class App extends Component {
   state = {
     currentPage: "Home"
