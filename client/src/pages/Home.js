@@ -18,4 +18,6 @@ import ListItems from "../components/ListItemsComp";
     </div>
 );
 
+// module.exports = Home;
+
 export default Home;
