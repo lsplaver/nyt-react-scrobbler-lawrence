@@ -5,5 +5,7 @@
 
 // module.exports = Saved;
 
-export * from "./Home";
-export * from "./Saved";
+// export * from "./Home/Home";
+// export * from "./SavedPage/Saved";
+
+export { default } from "./Saved";

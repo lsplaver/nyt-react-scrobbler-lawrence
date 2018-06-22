@@ -5,11 +5,11 @@ import './App.css';
 import NavBar from './components/Nav';
 // import Home from "./pages";
 // import Saved from "./pages";
-import Home from "./pages/Home";
-import Saved from "./pages/Saved";
+import Home from "./pages/HomePage";
+import Saved from "./pages/SavedPage";
 class App extends Component {
   state = {
-    currentPage: "Home"
+    currentPage: "" //"Saved"
   };
 
   handlePageChange = page => {
@@ -17,13 +17,13 @@ class App extends Component {
   };
 
   renderPage = () => {
-    if (this.state.currentPage === "Home")
+    if (this.state.currentPage === "Saved")
     {
-      return <Home />;
+      return <Saved />;
     }
 
     else {
-      return <Saved />;
+      return <Home />;
     }
   };
 
@@ -33,14 +33,14 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">NYT Article Scrobbler</h1>
-          <NavBar>
+          <NavBar
             currentPage = {this.state.currentPage}
             handlePageChange = {this.handlePageChange}
-          </NavBar>
+          />
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        {/* <p className="App-intro"> */}
+          {/* To get started, edit <code>src/App.js</code> and save to reload. */}
+        {/* </p> */}
         {/* <SearchForm /> */}
         {/* </SearchForm> */}
         {this.renderPage()}

@@ -1,6 +1,6 @@
 import React from "react";
-import List from "./../components/ListsComp";
-import ListItems from "./../components/ListItemsComp";
+import List from "./../../components/ListsComp";
+import ListItems from "./../../components/ListItemsComp";
 
 // let 
 /*export*/ const Saved = () => (
